@@ -20,18 +20,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onTick(long l)
             {
-                //
+                Cargando.setText("Iniciando en: "+l/1000+"");
             }
             @Override
             public void onFinish()
             {
-                activity2();
+                Intent i=new Intent(MainActivity.this,Convertidor.class);
+                startActivity(i);
             }
         }.start();
-    }
-    private void activity2()
-    {
-        Intent i=new Intent(this,Convertidor.class);
-        startActivity(i);
     }
 }
