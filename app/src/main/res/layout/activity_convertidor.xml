@@ -14,6 +14,7 @@
         android:gravity="center">
 
         <TextView
+            android:fontFamily="@font/fuente"
             android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -105,6 +106,7 @@
 
 
             <TextView
+                android:fontFamily="@font/fuente"
                 android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -147,6 +149,7 @@
             </LinearLayout>
 
             <TextView
+                android:fontFamily="@font/fuente"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Resultado:"
@@ -161,8 +164,6 @@
                 android:textColor="@color/white"
                 android:text=""/>
         </LinearLayout>
-
-
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
